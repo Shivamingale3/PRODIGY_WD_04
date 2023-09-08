@@ -1,0 +1,128 @@
+*{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+h1 {
+    text-align: center;
+    
+    font-size: 250%;
+    
+}
+
+.media2 a:hover{
+color: brown;
+
+
+}
+
+.line{
+    text-align: center;
+}
+
+.img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.media2 a{
+    color:rgb(97, 167, 237);
+    
+    padding: 14px 16px ;
+   
+    font-weight: bolder;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.media{
+    position: sticky;
+    top: 5;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+    
+    
+}
+
+
+
+.media a{
+   
+    /* Float is used to make horizontal navbar */
+    float: left;
+    border-right: 1px solid #4d4b4b;
+    width: 19%;
+   
+}
+.media a {
+    
+    
+    padding: 8px;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+   
+   
+}
+
+.media a:hover{
+    background-color: #7dd3d6;
+    color: rgb(250, 247, 247);
+}
+
+.active{
+    background-color: #ff0000;
+}
+
+div {
+    text-align: justify;
+    font-size: 150%;
+    margin: 15%;
+    margin-top: 0;
+    
+}
+ .indent{
+    text-indent: 70px;
+}
+
+.edu{
+    text-align: justify;
+    font-size: 150%;
+    margin: 15%;
+    margin-top: 0;
+    
+}
+
+/* On screens that are 600px wide or less, 
+make the menu links stack on top of each other
+ instead of next to each other */
+@media screen and (max-width: 900px) {
+    .media a {
+      /* float: none; */
+      width: 45%;
+      border-bottom: 1px solid #4d4b4b;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .media a {
+      /* float: none; */
+      width: 100%;
+      border-bottom: 1px solid #4d4b4b;
+    }
+
+  }
+
+
+  
+
+
